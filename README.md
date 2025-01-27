@@ -14,8 +14,8 @@ This API allows generating text from a prompt provided by the user, using the GP
 
 # Install (using docker)
 
-``docker-compose build
-  docker-compose up``
+``docker-compose build``
+  ``docker-compose up``
 
 # Install (without docker)
 
@@ -23,8 +23,8 @@ This API allows generating text from a prompt provided by the user, using the GP
  ``git clone https://github.com/tu_usuario/chat-api.git
 cd chat-api``
  2. Create a virtual environment:
- ``python -m venv venv 
-   source venv/bin/activate # On Windows: venv\Scripts\activate``
+ ``python -m venv venv`` 
+   ``source venv/bin/activate # On Windows: venv\Scripts\activate``
  3. Install Dependecies:
  ``pip install -r requirements.txt``
  4. Execute:
