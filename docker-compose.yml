@@ -1,0 +1,11 @@
+services:
+  flask_app:
+    build:
+      context: .  # Build desde el dockerfile en el directorio actual
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./db.sqlite3:/app/db.sqlite3
+      - ./:/app
+    environment:
+      - FLASK_ENV=development
