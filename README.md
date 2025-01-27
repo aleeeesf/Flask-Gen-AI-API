@@ -14,8 +14,8 @@ This API allows generating text from a prompt provided by the user, using the GP
 
 # Install (using docker)
 
-    ``docker-compose build
-     docker-compose up``
+``docker-compose build
+docker-compose up``
 
 # Install (without docker)
 
